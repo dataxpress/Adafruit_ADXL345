@@ -191,7 +191,7 @@ void Adafruit_ADXL345_Unified::setRange(range_t range)
 
 /**************************************************************************/
 /*!
-    @brief  Sets the g range for the accelerometer
+    @brief  Gets the g range for the accelerometer
 */
 /**************************************************************************/
 range_t Adafruit_ADXL345_Unified::getRange(void)
@@ -214,7 +214,7 @@ void Adafruit_ADXL345_Unified::setDataRate(dataRate_t dataRate)
 
 /**************************************************************************/
 /*!
-    @brief  Sets the data rate for the ADXL345 (controls power consumption)
+    @brief  Gets the data rate for the ADXL345 (controls power consumption)
 */
 /**************************************************************************/
 dataRate_t Adafruit_ADXL345_Unified::getDataRate(void)
